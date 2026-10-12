@@ -5,7 +5,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(108, 37, 175);
+    background-color: tan;
     padding: 10px 20px;
 }
 
@@ -27,7 +27,7 @@ header {
 .boton-nav {
     text-decoration: none;
     color: white;
-    background-color: violet;
+    background-color:lightblue;
     padding: 6px 12px;
     border-radius: 2px;
     font-size: 14px;
@@ -36,12 +36,12 @@ header {
 }
 
 .boton-nav:hover {
-    background-color: darkviolet;
+    background-color: tan;
     color: white;
 }
 
 .boton-nav.activo {
-    background-color: blue;
+    background-color: pink;
     color: white;
     font-weight: bold;
 }
@@ -66,14 +66,14 @@ main {
 
 aside {
     width: 25%;
-    background-color: rgb(168, 115, 218);
+    background-color:white;
     padding: 15px;
     border-radius: 5px;
 }
 
 section {
     width: 75%;
-    background-color: #f4ecfc;
+    background-color: skyblue;
     padding: 20px;
     border-radius: 5px;
 }
@@ -94,7 +94,7 @@ article {
 
 .tarjeta-pet {
     background-color: white;
-    border: 1px solid #d4b5f0;
+    border: 1px solid tan;
     border-radius: 6px;
     width: calc(50% - 10px);
     padding: 15px;
@@ -127,7 +127,7 @@ ul li {
    TIPOGRAFÍA Y PIE DE PÁGINA
    ========================================== */
 h2, h3 {
-    color: rgb(60, 15, 100);
+    color:black;
     font-family: sans-serif;
 }
 
@@ -138,7 +138,7 @@ p {
 }
 
 footer {
-    background-color: rgb(108, 37, 175);
+    background-color: tan;
     color: white;
     text-align: center;
     padding: 15px;
